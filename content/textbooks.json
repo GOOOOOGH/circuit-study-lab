@@ -1,0 +1,22 @@
+[
+  {
+    "id": "analog",
+    "title": "模拟电子技术基础",
+    "edition": 6,
+    "requested": "模拟电子技术基础第六版郑益慧",
+    "authors": "童诗白、华成英原著；华成英主编",
+    "isbn": "9787040595338",
+    "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=67c1ed22e119ac972988a7d0",
+    "note": "出版社书目已核实。郑益慧课程与教材的对应关系待确认；尚未逐节核对指定教材正文。"
+  },
+  {
+    "id": "digital",
+    "title": "数字电子技术基础",
+    "edition": 6,
+    "requested": "阎石主编第六版",
+    "authors": "阎石主编；出版社作者字段为阎石、王红",
+    "isbn": "9787040444933",
+    "url": "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=59cf5a91ba9eb884cf822664",
+    "note": "出版社书目已核实；尚未逐节核对指定教材正文。"
+  }
+]

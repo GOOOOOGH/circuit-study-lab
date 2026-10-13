@@ -1,0 +1,1568 @@
+[
+  {
+    "id": "S64",
+    "researchKey": "R-AD01",
+    "title": "MIT 6.012 Lecture 17: BJT Forward Active Regime",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-spring-2009/3824f86399fb8b38742c5777fafb181e_MIT6_012S09_lec17.pdf",
+    "modules": [
+      "A01",
+      "A02"
+    ],
+    "locator": "幻灯片 3–7、9–13",
+    "scope": "正向放大：VBE>0，VBC<0；基区扩散与集电结收集；β只适用指定工作区。",
+    "limits": "源文把各端电流均定义为流入，IE=−(IC+IB)；网站若IE定义流出，应明确改为IE=IC+IB。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S65",
+    "researchKey": "R-AD02",
+    "title": "MIT 6.012 Lecture 18: BJT Regions of Operation",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-spring-2009/2d386b56f03787b1658e6b131ca650bc_MIT6_012S09_lec18.pdf",
+    "modules": [
+      "A01",
+      "A02"
+    ],
+    "locator": "幻灯片 2–10",
+    "scope": "截止、正向放大、反向放大、饱和用两结偏置定义；饱和的电荷存储使关断变慢。",
+    "limits": "不得把IC=βIB无限延伸到饱和；0.2V只能标为选定教学压降模型。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S66",
+    "researchKey": "R-AD03",
+    "title": "UC Berkeley Physics 111A: Lab 4 JFET Circuits I",
+    "url": "https://instrumentationlab.berkeley.edu/Lab4",
+    "modules": [
+      "A01",
+      "A02",
+      "A05"
+    ],
+    "locator": "Background: JFET Characteristics；Small-Signal Transconductance Model；Self-Biased Current Sources；Source Followers",
+    "scope": "N沟道JFET常规工作栅结反偏；自偏置负反馈与负载线；gm=dID/dVGS，源跟随增益RS/(1/gm+RS)。",
+    "limits": "网页指出抛物线近似与真实器件可差异较大；本文饱和区模型不能用于全部VDS。实验页具体50mA警告是指定器件场景，勿当通用额定值。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S67",
+    "researchKey": "R-AD04",
+    "title": "MIT 6.012 Lecture 19: Single Stage Amplifiers",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-spring-2009/716bbb88c4269cde3dc6cc8f9cd90f64_MIT6_012S09_lec19.pdf",
+    "modules": [
+      "A02",
+      "A10"
+    ],
+    "locator": "幻灯片 3–9、12–17",
+    "scope": "共源小信号反相增益；负载与ro并联；有源负载增益与输出摆幅约束。",
+    "limits": "Q点、饱和区与小信号假设先于增益；电流源负载不等于无限可用摆幅。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S68",
+    "researchKey": "R-AD05",
+    "title": "MIT 6.012 Lecture 20: Other Amplifier Stages",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-spring-2009/6b80a6c37210c326a3cd72e684ddd68b_MIT6_012S09_lec20.pdf",
+    "modules": [
+      "A02"
+    ],
+    "locator": "Common-drain amplifier；Common-gate amplifier",
+    "scope": "源跟随作电压缓冲，共栅作低输入阻抗级；输入输出阻抗必须按小信号端口定义。",
+    "limits": "理想忽略体效应/有限ro的计算应标注；不能声称实际源跟随电压增益恰等于1。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S69",
+    "researchKey": "R-AD06",
+    "title": "MIT 6.012 Lecture 22: CE Frequency Response and Miller Approximation",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-spring-2009/e6afee3d5cc0080ed7bf6f7fd9c2c223_MIT6_012S09_lec22.pdf",
+    "modules": [
+      "A04"
+    ],
+    "locator": "幻灯片 7–9、15–17",
+    "scope": "反馈电容输入米勒等效Cμ(1−Av)；大负增益放大输入电容；主极点近似给带宽。",
+    "limits": "米勒近似需反馈电容电流小于跨导源电流；多个相近极点时不能套单极点截止。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S70",
+    "researchKey": "R-AD07",
+    "title": "MIT 6.012 Lecture 24: Multistage Amplifiers",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-spring-2009/ae8671dac065308b639051497096a84a_MIT6_012S09_lec24.pdf",
+    "modules": [
+      "A03",
+      "A10"
+    ],
+    "locator": "幻灯片 2–5、级联两端口部分",
+    "scope": "多级需同时满足增益、信号源及负载阻抗；级间加载改变各级实际增益。",
+    "limits": "不能仅把空载增益相乘。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S71",
+    "researchKey": "R-AD08",
+    "title": "TI: Handbook of Operational Amplifier Applications (SBOA092B)",
+    "url": "https://www.ti.com/lit/an/sboa092b/sboa092b.pdf",
+    "modules": [
+      "A03",
+      "A05",
+      "A06",
+      "A10"
+    ],
+    "locator": "印刷页 14–18、30–39、43–45、57–61、67–75",
+    "scope": "运放理想反馈关系、反相/同相、积分微分；有限开环增益及带宽；共模抑制与失调。",
+    "limits": "虚短只在线性负反馈下成立；手册的交会斜率是经验判据，正式稳定性用环路相位/奈奎斯特，不能拿斜率单独证明稳定。每处核对都限定引用段落。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S72",
+    "researchKey": "R-AD09",
+    "title": "TI: Active Low-Pass Filter Design (SLOA049D)",
+    "url": "https://www.ti.com/lit/an/sloa049d/sloa049d.pdf",
+    "modules": [
+      "A06",
+      "C01"
+    ],
+    "locator": "§2–3、§5.1、§6–7、§11",
+    "scope": "滤波响应与电路拓扑分开：Butterworth/Bessel/Chebyshev是响应，Sallen-Key/MFB是实现；二阶Butterworth Q≈0.707。",
+    "limits": "有限GBW、输出阻抗、元件敏感度均改变实际高频结果；每阶20dB/dec是远离截止的渐近斜率。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S73",
+    "researchKey": "R-AD10",
+    "title": "TI: Sine-Wave Oscillator (SLOA060)",
+    "url": "https://www.ti.com/lit/an/sloa060/sloa060.pdf",
+    "modules": [
+      "A07"
+    ],
+    "locator": "§3–4、§8.1、§8.2",
+    "scope": "正反馈约定下稳态环路幅值1相位0；Wien桥稳态增益及非线性稳幅；移相网络。",
+    "limits": "源文负反馈符号约定写Aβ=−1，网站须先定义符号；仅满足稳态等式不足以证明起振或振幅稳定。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S74",
+    "researchKey": "R-AD11",
+    "title": "TI: Benefits of Class-G and Class-H Boost in Audio Amplifiers (SLAA888)",
+    "url": "https://www.ti.com/lit/pdf/slaa888",
+    "modules": [
+      "A08"
+    ],
+    "locator": "§1、§1.1–1.2、图1–8",
+    "scope": "D类输出级作开关，高频调制由负载/低通还原；供电与输出功率影响效率；G/H类改变供电策略。",
+    "limits": "本文为2019报告，检索日期不是器件上市日期；不得把某一效率图泛化成所有D类效率。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S75",
+    "researchKey": "R-AD12",
+    "title": "TI: LM317 3-Pin Adjustable Regulator (SLVS044Z)",
+    "url": "https://www.ti.com/lit/ds/symlink/lm317.pdf",
+    "modules": [
+      "A09",
+      "A10"
+    ],
+    "locator": "§6.3、§6.6、§7.3、§8.2、热设计章节",
+    "scope": "输出分压+Iadj误差；线性稳压需压差与热预算；过流/过温/SOA保护；最大额定不等于推荐工作点。",
+    "limits": "2025年4月修订；传统芯片/新芯片参数有差异；推荐3V余量不能推广为所有LDO压差。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S76",
+    "researchKey": "R-AD13",
+    "title": "MIT 6.004: 4.1 Combinational Logic Annotated Slides",
+    "url": "https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c4/c4s1/",
+    "modules": [
+      "D01",
+      "D03",
+      "D06"
+    ],
+    "locator": "Sum of Products；Logic Simplification；Karnaugh Maps；Multiplexers；Read-only Memories",
+    "scope": "真值表、积之和、相邻项合并、K图、MUX与ROM实现组合函数。",
+    "limits": "K图邻接按Gray顺序且边界循环；组合逻辑只定义稳态功能，传播过程中可有毛刺。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S77",
+    "researchKey": "R-AD14",
+    "title": "MIT 6.004: 5.1 Sequential Logic Annotated Slides",
+    "url": "https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c5/c5s1/",
+    "modules": [
+      "D04",
+      "D05",
+      "D09"
+    ],
+    "locator": "Latch；D-Register Timing；Timing in a Single-clock System；Sequential Circuit Timing",
+    "scope": "锁存与边沿触发区别；setup/hold；最长路径决定周期，最短路径决定保持。",
+    "limits": "无偏斜简式T≥tcq,max+tcomb,max+tsetup及tcq,min+tcomb,min≥thold；降低时钟频率不能修复保持违例。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S78",
+    "researchKey": "R-AD15",
+    "title": "MIT 6.004: 6.1 Finite State Machines Annotated Slides",
+    "url": "https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c6/c6s1/",
+    "modules": [
+      "D05",
+      "D06",
+      "D09"
+    ],
+    "locator": "Moore and Mealy Machines；ROM implementation；State Encoding",
+    "scope": "Moore输出依赖状态，Mealy依赖状态与输入；ROM+状态寄存器可以实现FSM。",
+    "limits": "异步输入需单独处理；ROM实现FSM不是完整FPGA/Flash教材。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S79",
+    "researchKey": "R-AD16",
+    "title": "TI: SNx4HC00 Quadruple 2-Input NAND Gates",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74hc00.pdf",
+    "modules": [
+      "D02"
+    ],
+    "locator": "§6.3、§6.5、§6.7、§8",
+    "scope": "VIH/VIL与VOH/VOL在给定VCC/输出电流/温度下定义；2–6V推荐供电；输入不得悬空。",
+    "limits": "正文提取可能丢失反相横线，NAND真值表必须手工核对；不能把HC输入阈值当成TTL阈值。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S80",
+    "researchKey": "R-AD17",
+    "title": "TI: SNx4HC74 D-Type Positive-Edge-Triggered Flip-Flops",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+    "modules": [
+      "D04",
+      "D05"
+    ],
+    "locator": "功能表；Timing Requirements；Switching Characteristics",
+    "scope": "D上升沿采样；低有效异步preset/clear；setup/hold、恢复及脉宽按数据手册条件。",
+    "limits": "异步置位和清零同时有效的功能表状态不可当作正常保持；同步复位与异步引脚区别。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S81",
+    "researchKey": "R-AD18",
+    "title": "TI: xx555 Precision Timers (SLFS022K)",
+    "url": "https://www.ti.com/lit/ds/symlink/ne555.pdf",
+    "modules": [
+      "D07",
+      "A07"
+    ],
+    "locator": "§3、§5.3、§6.4、§7.2",
+    "scope": "触发约1/3VCC、阈值约2/3VCC，RESET低有效优先；单稳态RC与双电阻多谐。",
+    "limits": "2026年3月修订；NE555推荐4.5–16V，不是随意可用3.3V；200mA能力不表示输出轨到轨或不需热核算。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S82",
+    "researchKey": "R-AD19",
+    "title": "ADI MT-001: SNR = 6.02N + 1.76 dB",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-001.pdf",
+    "modules": [
+      "D08",
+      "C01"
+    ],
+    "locator": "页1–4，式4/9，Quantization Noise Model",
+    "scope": "理想均匀量化最大误差半LSB，噪声RMS q/√12；满量程正弦理论SNR6.02N+1.76dB。",
+    "limits": "结果依赖理想ADC、满量程正弦及指定积分带宽；不等于真实ENOB、DC精度或所有信号SNR。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S83",
+    "researchKey": "R-AD20",
+    "title": "ADI MT-002: What the Nyquist Criterion Means",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-002.pdf",
+    "modules": [
+      "D08",
+      "C01"
+    ],
+    "locator": "页5–7：Nyquist zones、Baseband Antialiasing Filters；页9–11欠采样扩展",
+    "scope": "基带采样要考虑带外信号/噪声折叠；实际抗混叠滤波需过渡带和阻带衰减。",
+    "limits": "不要以fs=2fmax保证任意相位正弦可重建；带通欠采样须隔离频带且满足ADC模拟带宽。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S84",
+    "researchKey": "R-AD21",
+    "title": "ADI MT-013: Evaluating High Speed DAC Performance",
+    "url": "https://www.analog.com/media/en/training-seminars/tutorials/MT-013.pdf",
+    "modules": [
+      "D08",
+      "A10"
+    ],
+    "locator": "页1–4：Settling Time / Glitch Impulse Area；页5起频谱评估",
+    "scope": "DAC建立时间须给误差带和起算点；毛刺脉冲面积单位V·s，不是能量J；SFDR/SNR与位数不同。",
+    "limits": "不能从上升时间直接推导高精度DAC建立时间；ADC的采样和DAC的重建分别建模。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S85",
+    "researchKey": "R-AD22",
+    "title": "MIT 2.017J: Control Fundamentals",
+    "url": "https://ocw.mit.edu/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/d98dc04f3311eb4e8c786a342dd07f87_MIT2_017JF09_ch11.pdf",
+    "modules": [
+      "C02",
+      "C03"
+    ],
+    "locator": "§11.3–11.9",
+    "scope": "线性系统极点稳定性；状态空间x'=Ax+Bu，y=Cx+Du；传递函数C(sI−A)^−1B+D；PID三项。",
+    "limits": "Kp/Ki/Kd全部为正仍不自动保证稳定；零初值的传函与含初值响应分开。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S86",
+    "researchKey": "R-AD23",
+    "title": "MIT 2.017J: Control Systems—Loop Shaping",
+    "url": "https://ocw.mit.edu/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/201df1a002af95036094e9034cafd80d_MIT2_017JF09_ch12.pdf",
+    "modules": [
+      "A05",
+      "C02"
+    ],
+    "locator": "§12.2–12.4",
+    "scope": "闭环特征方程1+PC=0；Nyquist须计开环RHP极点；增益/相位裕量与鲁棒性。",
+    "limits": "本文环绕数采用逆时针约定，不能混用其他书正负号；单一裕量数不能证明MIMO稳定。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S87",
+    "researchKey": "R-AD24",
+    "title": "MathWorks: Anti-Windup Control Using PID Controller Block",
+    "url": "https://www.mathworks.com/help/simulink/slref/anti-windup-control-using-a-pid-controller.html",
+    "modules": [
+      "C03"
+    ],
+    "locator": "Performance Without Anti-Windup；Back-Calculation；Clamping；Tracking Mode",
+    "scope": "限幅后积分可能继续累计；回算、条件积分、跟踪模式使控制器跟踪有效执行器量。",
+    "limits": "此例一阶加纯延迟及已知限幅；若执行器另有动态/前馈，应跟踪实际执行器分量。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S88",
+    "researchKey": "R-AD25",
+    "title": "Ngspice official documentation",
+    "url": "https://ngspice.sourceforge.io/docs.html",
+    "modules": [
+      "C04",
+      "A10",
+      "D09"
+    ],
+    "locator": "Ngspice Documentation；Ngspice Internals；版本47手册入口",
+    "scope": "仿真流程包含网表解析、器件模型、矩阵建立、分析及数据处理；需要记录模型及分析类型。",
+    "limits": "索引页核对可用性与流程，具体网表语法应到版本手册对应章节核对；教学可视化不冒充SPICE。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商或工具官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S89",
+    "researchKey": "R-AD26",
+    "title": "MathWorks: Continuous-Discrete Conversion Methods",
+    "url": "https://www.mathworks.com/help/control/ug/continuous-discrete-conversion-methods.html",
+    "modules": [
+      "C03"
+    ],
+    "locator": "Zero-Order Hold；Tustin Approximation；Time Delays",
+    "scope": "ZOH匹配分段常值输入的采样时刻输出；Tustin s≈(2/Ts)(z−1)/(z+1)并存在频率扭曲；内部延迟离散化可为近似。",
+    "limits": "ZOH精确不代表任意输入间所有连续时刻都相同；Tustin转换状态不一定与物理连续状态相同。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S90",
+    "researchKey": "R-AD27",
+    "title": "ST AN4894: How to use EEPROM emulation on STM32 MCUs, Rev 12",
+    "url": "https://www.st.com/resource/en/application_note/an4894-how-to-use-eeprom-emulation-on-stm32-mcus-stmicroelectronics.pdf",
+    "modules": [
+      "D06",
+      "C04"
+    ],
+    "locator": "§2、§2.2、§4.4、§5；表2",
+    "scope": "Flash复写涉及擦除管理；至少双页搬移实现EEPROM仿真；需耐久、掉电恢复、实时阻塞、缓存一致性管理。",
+    "limits": "Rev12为2026年7月；表2部分数据明确为STM32L4实例，不得推广到所有Flash/EEPROM。本文应用层不是完整存储单元物理。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商官方文档",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S91",
+    "researchKey": "R-AD28",
+    "title": "University of Denver Electronics 26: Class B Amplifiers",
+    "url": "https://mysite.du.edu/~etuttle/electron/elect26.htm",
+    "modules": [
+      "A08"
+    ],
+    "locator": "Class B Amplifiers（网页第36–46行）",
+    "scope": "理想推挽B类每支管导通半周；总电源平均电流2Ipk/π，负载正弦功率Vpk Ipk/2，因此η=(π/4)(Vpk/VCC)，理想满摆幅约78.5%。AB通过静态偏置减轻交越死区。",
+    "limits": "采用本页B类积分关系；本页A类段把其余75%都算晶体管耗散是不正确的，不采用该句，需分电阻/晶体管功率。作者名网页URL etuttle 但未在本次页面元数据验证姓名，因此标题应简为 University of Denver Electronics 26。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "大学教师原始实验教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S92",
+    "researchKey": "EG01",
+    "title": "Basic Calculation of a Buck Converter's Power Stage",
+    "url": "https://www.ti.com/lit/an/slva477/slva477.pdf",
+    "modules": [
+      "G01",
+      "G02",
+      "E06"
+    ],
+    "locator": "§1–7，pp.1–6",
+    "scope": "CCM降压功率级、电感纹波/峰值电流、输出电容和反馈分压；理想D=Vout/Vin与含效率估算分开。",
+    "limits": "当前检索到的官方修订，不是所有Buck控制器通用设计规范。",
+    "version": "SLVA477C，2026-09",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S93",
+    "researchKey": "EG02",
+    "title": "UCC25640x LLC Resonant Controller",
+    "url": "https://www.ti.com/lit/ds/symlink/ucc256404.pdf",
+    "modules": [
+      "G01",
+      "G02",
+      "E06"
+    ],
+    "locator": "§7 Detailed Description；§8 pp.44起",
+    "scope": "半桥LLC、Lr/Lm/Cr谐振腔、混合迟滞控制、突发模式及启动状态机。",
+    "limits": "LLC有两个相关谐振频率；变频范围、ZVS和负载有关，不能宣称全工况软开关。",
+    "version": "SLUSD90F，2026-08",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S94",
+    "researchKey": "EG03",
+    "title": "UCC28950/UCC28951 600-W Phase-Shifted Full-Bridge Application Note",
+    "url": "https://www.ti.com/lit/an/slua560/slua560.pdf",
+    "modules": [
+      "G01",
+      "G02"
+    ],
+    "locator": "§3功率预算；§4磁件；§12环路；§13 ZVS，pp.3–20",
+    "scope": "600W实例由效率目标建立总损耗预算，移相桥需要足够换流能量及延时；轻载ZVS范围有限。",
+    "limits": "例子是约390V输入/12V输出设计，不把器件值直接推广。",
+    "version": "SLUA560D，2022-03",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S95",
+    "researchKey": "EG04",
+    "title": "TIDA-010054 Bidirectional Dual Active Bridge",
+    "url": "https://www.ti.com/lit/ug/tidues0/tidues0.pdf",
+    "modules": [
+      "G01",
+      "G02",
+      "T10"
+    ],
+    "locator": "§2.3.4.1–3 pp.17–19；§4.4实验和保护验证",
+    "scope": "SPS理想功率 P=N V1 V2 φ(π−|φ|)/(2π² fs L)，φ为弧度；相移正负控制方向；电压比影响RMS电流与ZVS。",
+    "limits": "理想双50%占空方波模型，N为原/副匝比、L折算原边；10kW、100kHz是该参考设计条件。",
+    "version": "TIDUES0F，2026-04",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S96",
+    "researchKey": "EG05",
+    "title": "TIDA-010203 4-kW Totem Pole PFC",
+    "url": "https://www.ti.com/lit/pdf/tiduez3",
+    "modules": [
+      "G01",
+      "G02",
+      "E03"
+    ],
+    "locator": "p.1特性；§2系统；§3测试",
+    "scope": "CCM图腾柱PFC使用C2000与GaN；输入电流整形、高速电流采样、过流、EMI和浪涌验证。",
+    "limits": "峰值效率≥99.1%、PF0.999仅参考设计指定条件；控制地处开关腿中点，不应误当安全低压接地。",
+    "version": "TIDUEZ3B，2023-04",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S97",
+    "researchKey": "EG06",
+    "title": "High-Speed Layout Guidelines for Signal Conditioners and USB Hubs",
+    "url": "https://www.ti.com/lit/an/slla414/slla414.pdf",
+    "modules": [
+      "G04",
+      "G06",
+      "E07",
+      "E08"
+    ],
+    "locator": "§3 pp.4–10；§4 pp.12–21",
+    "scope": "连续参考平面、换层回流过孔、差分对称性、连接器/过孔残桩、AC耦合和层叠示例。",
+    "limits": "15mil残桩及200mil回流过孔距离是该指南建议，不是全部接口统一限值；按接口版本/速率和仿真复核。",
+    "version": "SLLA414A，2026-01",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S98",
+    "researchKey": "EG07",
+    "title": "Sitara Processor Power Distribution Networks: Implementation and Analysis",
+    "url": "https://www.ti.com/lit/an/sprac76/sprac76.pdf",
+    "modules": [
+      "G04",
+      "G06",
+      "E01",
+      "E07"
+    ],
+    "locator": "§5 Dynamic Analysis pp.11–12；阻抗谱/布局章节",
+    "scope": "PDN目标阻抗由允许电压变化和应用瞬态电流确定；VRM、电容ESR/ESL、连接回路与封装共同决定阻抗。",
+    "limits": "ΔV/ΔI是入门估算；文中的特定电流比例及频段不是任意处理器规则，需芯片要求及电流频谱。",
+    "version": "SPRAC76H，2025-10",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S99",
+    "researchKey": "EG08",
+    "title": "KiCad 9.0 PCB Editor Documentation",
+    "url": "https://docs.kicad.org/9.0/en/pcbnew/pcbnew.html",
+    "modules": [
+      "G05",
+      "G06",
+      "G07",
+      "G10"
+    ],
+    "locator": "Fabrication outputs；Component placement files；DRC/Net classes",
+    "scope": "装配坐标含中心位置、角度、板面和单位，明确输出原点与DNP；制造商接受时IPC-2581/ODB++可承载综合制板装配数据。",
+    "limits": "先与板厂/贴片厂确认格式、旋转/原点、钻孔、层叠和缺件；不能只导出Gerber铜层就认为交付完整。",
+    "version": "KiCad 9.0，页面修订日期未知",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S100",
+    "researchKey": "EG09",
+    "title": "Official Gerber Format and Downloads",
+    "url": "https://www.ucamco.com/en/guest/downloads/gerber-format",
+    "modules": [
+      "G07"
+    ],
+    "locator": "Downloads Specifications表；另见 https://www.ucamco.com/en/gerber",
+    "scope": "当前官方列表提供2026.05层格式、2020.08 Job格式及2021.11 XNC钻孔格式；Job可描述厚度/表面处理等制造属性。",
+    "limits": "本次读取下载目录与官方格式概述，未逐条审计2026.05全文语法；采用板厂支持版本。",
+    "version": "Gerber Layer Format Rev 2026.05，2026-05-19",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S101",
+    "researchKey": "EG10",
+    "title": "IEC 61000-4-2:2025",
+    "url": "https://webstore.iec.ch/en/publication/68954",
+    "modules": [
+      "G08"
+    ],
+    "locator": "官方Scope/Description及Product detail",
+    "scope": "设备级ESD抗扰测试的共同基础：波形、测试等级范围、设备、布置、步骤、校准与测量不确定度。",
+    "limits": "只读官方摘要/书目，未购买正文；不由摘要规定任意产品需8kV接触/15kV空气；需产品标准、市场及端口。",
+    "version": "Edition 3.0，2025；精确出版日未摘录",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S102",
+    "researchKey": "EG11",
+    "title": "IEC 61000-4-4:2012",
+    "url": "https://webstore.iec.ch/en/publication/22271",
+    "modules": [
+      "G08"
+    ],
+    "locator": "Scope/Description；Product detail",
+    "scope": "重复快速瞬变/脉冲群用于电源、信号、控制、接地端口抗扰评价，标准建立可重复测试方法和等级范围。",
+    "limits": "官方摘要不是全文；EFT不等于浪涌，不把所有端口统一2kV。",
+    "version": "Edition 3.0，2012-04-30；RLV书目",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S103",
+    "researchKey": "EG12",
+    "title": "IEC 61000-4-5:2014+AMD1:2017 CSV",
+    "url": "https://webstore.iec.ch/en/publication/61166",
+    "modules": [
+      "G08"
+    ],
+    "locator": "Scope/Description",
+    "scope": "开关与雷电效应形成的单向浪涌抗扰测试；等级和耦合条件应关联环境与安装条件。",
+    "limits": "官方摘要而非完整测试条款；浪涌波形、源阻抗、端口耦合、判据需查适用正文，不能只有kV数值。",
+    "version": "Edition 3.1，2017-08-04",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S104",
+    "researchKey": "EG13",
+    "title": "CISPR 32:2015+AMD1:2019 CSV",
+    "url": "https://webstore.iec.ch/en/publication/65836",
+    "modules": [
+      "G08"
+    ],
+    "locator": "Scope；Classes A/B；Product detail",
+    "scope": "范围是额定AC/DC有效值≤600V的所定义多媒体设备；区分A/B类并规定发射测量可重复性。",
+    "limits": "并非所有机器人/工业电机设备统一适用；摘要不支持直接抄频段dB限值。",
+    "version": "Edition 2.1，2019-10-01",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S105",
+    "researchKey": "EG14",
+    "title": "How to select a Surge Diode",
+    "url": "https://www.ti.com/lit/an/slvae37/slvae37.pdf",
+    "modules": [
+      "E02",
+      "G03",
+      "G08"
+    ],
+    "locator": "§2 TVS Diode Specifications，pp.2–5",
+    "scope": "区分工作反向电压VRWM、击穿和钳位电压；瞬态时把电流分流到设计回路；脉冲额定能力需波形条件。",
+    "limits": "正常电压低于VRWM并不足以保证保护；被保护器件承受的残压含寄生L di/dt及电流条件。",
+    "version": "SLVAE37，2019-01",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S106",
+    "researchKey": "EG15",
+    "title": "Murata Ceramic Capacitors DC Bias FAQ",
+    "url": "https://www.murata.com/en-eu/support/faqs/capacitor/ceramiccapacitor/char/0005",
+    "modules": [
+      "E01",
+      "G02",
+      "G04"
+    ],
+    "locator": "FAQ答案及DC偏压曲线",
+    "scope": "高介电常数MLCC如X5R/X7R有效容值随DC偏压改变；C0G没有相同DC偏压特性。",
+    "limits": "不能用额定电压或X7R字样推断容值保留率，必须查具体料号/工作条件曲线。",
+    "version": "发布日期未知",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S107",
+    "researchKey": "EG16",
+    "title": "Selecting the Best Inductor for Your DC-DC Converter",
+    "url": "https://www.coilcraft.com/en-us/resources/application-notes/selecting-the-best-inductor-for-your-dc-dc-convert/",
+    "modules": [
+      "E01",
+      "G02"
+    ],
+    "locator": "Saturation Current；RMS Current；Test Conditions",
+    "scope": "Isat按指定电感下降比例定义，Irms按指定温升条件；峰值电流与热RMS电流分别检查。",
+    "limits": "不同厂家和系列使用不同下降比例/温升，不能跨料号只比额定A数；频率、铜损磁芯损耗也需评估。",
+    "version": "Doc469，网页日期未知",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S108",
+    "researchKey": "EG17",
+    "title": "Avoid Common Mistakes When Selecting And Designing With Power MOSFETs",
+    "url": "https://www.ti.com/lit/an/slpa021/slpa021.pdf",
+    "modules": [
+      "E03",
+      "G02"
+    ],
+    "locator": "§2 pp.2；§4 pp.4–6；§7 p.8",
+    "scope": "阈值VGS(th)表征小电流开始导通，不是指定RDS(on)驱动电压；最低RDS(on)不必然最低总损耗。",
+    "limits": "需同时检查VDS/VGS、SOA、温度、热路径、开关电荷与实际驱动能力；绝对最大值不是连续设计工作点。",
+    "version": "SLPA021，具体日期未知",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S109",
+    "researchKey": "EG18",
+    "title": "Semiconductor and IC Package Thermal Metrics",
+    "url": "https://www.ti.com/lit/an/spra953d/spra953d.pdf",
+    "modules": [
+      "E03",
+      "G02",
+      "G06",
+      "G09"
+    ],
+    "locator": "§1 RθJA；§2 RθJC；§3 ΨJT，pp.2–9",
+    "scope": "RθJA受板层/铜面积/气流等影响；ΨJT是表征参数，不等同单一热通路热阻。",
+    "limits": "不能把JEDEC板RθJA直接当任意产品结温精确预测；模型加实际热测试。",
+    "version": "SPRA953D，2024-03",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S110",
+    "researchKey": "EG19",
+    "title": "Front-End Amplifier and RC Filter Design for a Precision SAR ADC",
+    "url": "https://www.analog.com/en/resources/analog-dialogue/articles/front-end-amp-and-rc-filter-design.html",
+    "modules": [
+      "E04",
+      "E05",
+      "G03"
+    ],
+    "locator": "开关电容输入模型；Settling；Multiplexed input；Table1",
+    "scope": "SAR输入有采样电容kickback，RC及运放需在采集窗口建立至误差预算；多路切换可能形成满量程阶跃。",
+    "limits": "页面16位AD7980实例不能推广全部ADC；一阶e^(−t/τ)模型不包含全部非线性/驱动稳定性。",
+    "version": "Analog Dialogue，页面日期未知",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S111",
+    "researchKey": "EG20",
+    "title": "BQ25756 Bidirectional Buck-Boost Battery Charge Controller",
+    "url": "https://www.ti.com/lit/ds/symlink/bq25756.pdf",
+    "modules": [
+      "E06",
+      "G01",
+      "T04"
+    ],
+    "locator": "§3 Description；§8充电/反向/MPPT；§9典型应用；§11布局",
+    "scope": "1–14节双向Buck-Boost充电控制器，I²C或电阻设定，USB-PD EPR典型系统240W例子，外部功率级/电流采样。",
+    "limits": "不要混淆BQ25756E（1–7节）和BQ25756；充电器不替代多节监测/完整电池保护，真实电池按厂家规范。",
+    "version": "SLUSEN5A，2026-08",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S112",
+    "researchKey": "EG21",
+    "title": "BQ76952 Battery Monitor and Protector",
+    "url": "https://www.ti.com/lit/ds/symlink/bq76952.pdf",
+    "modules": [
+      "E06",
+      "T04"
+    ],
+    "locator": "§10测量校准；§11保护；§15均衡；§16应用；§18布局",
+    "scope": "3–16节监测保护、库仑计、单体电压/电流/热敏测量、主机或自主均衡；校准与独立保护配置需系统设计。",
+    "limits": "库仑累计不等于自动精确SOC，初始SOC、偏置漂移、容量衰减和失效保护仍需系统算法。",
+    "version": "SLUSE13B，2021-11",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S113",
+    "researchKey": "EG22",
+    "title": "Controller Area Network Physical Layer Requirements",
+    "url": "https://www.ti.com/lit/an/slla270/slla270.pdf",
+    "modules": [
+      "E08",
+      "G03"
+    ],
+    "locator": "§3总线及终端，pp.3–5；节点/传播相关章节",
+    "scope": "线形总线、两物理端终端、支线和传播延时约束；120Ω线缆系统两端终端并联静态约60Ω。",
+    "limits": "较旧经典高速CAN参考，速率/长度表不是CAN FD通用上限；CAN FD需当前收发器/协议与网络时序核对。",
+    "version": "SLLA270，2008-01",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S114",
+    "researchKey": "EG23",
+    "title": "TIDA-010956 48V, 85A Three-Phase Inverter",
+    "url": "https://www.ti.com/lit/pdf/TIDUF82",
+    "modules": [
+      "E03",
+      "E08",
+      "E09",
+      "G09",
+      "T02"
+    ],
+    "locator": "§2器件/系统；§3.3.4采样；§3.3.5热分析p.24",
+    "scope": "DRV8162L栅极驱动与三相电流采样参考板，28°C/48V/16kHz特定无散热热测试约26.2ARMS。",
+    "limits": "85A名称与脉冲切换曲线不是全部工况连续RMS额定；更大电流/环境温度需要散热、降额与重新验证。",
+    "version": "TIDUF82B，2025-05；官网2025-05-28",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S115",
+    "researchKey": "EG24",
+    "title": "LSM6DSV16X IMU with embedded sensor fusion and AI",
+    "url": "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf",
+    "modules": [
+      "E09",
+      "T01"
+    ],
+    "locator": "§2.5 FSM；§2.6 MLC；§2.8 SFLP；§4规格；修订历史p.178",
+    "scope": "三轴加速度+三轴角速度、FIFO及时间戳、可配置FSM/MLC和低功耗融合，MLC是特征加决策树。",
+    "limits": "六轴IMU不测绝对航向；运动/重力可观测性、偏置标定和磁干扰边界需另讲；该器件2022发布，不称2026新品。",
+    "version": "DS13510 Rev4，2023-05-25",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S116",
+    "researchKey": "EG25",
+    "title": "Introducing NVIDIA Jetson Thor, the Ultimate Platform for Physical AI",
+    "url": "https://developer.nvidia.com/blog/introducing-nvidia-jetson-thor-the-ultimate-platform-for-physical-ai",
+    "modules": [
+      "E07",
+      "T03",
+      "P03"
+    ],
+    "locator": "规格对比表；JetPack软件章节",
+    "scope": "T5000使用Blackwell、128GB；2070TFLOPS明确Sparse FP4，130W功率包络；设备面向多模态机器人边缘推理。",
+    "limits": "厂商发布案例而非课程实测，稀疏FP4峰值不能与其他精度Dense TOPS直接比较，也不等于具体模型吞吐/端到端延迟。",
+    "version": "2025-08-25",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S117",
+    "researchKey": "EG26",
+    "title": "Gate Driver Design Requirements for Humanoid Robot Motor Drives",
+    "url": "https://www.ti.com/lit/pdf/slvag23",
+    "modules": [
+      "T02",
+      "T06",
+      "E03",
+      "E08"
+    ],
+    "locator": "pp.1–3",
+    "scope": "将不同机器人关节功率、驱动集成度、热管理、采样、保护关联；文中55°C和SELV等简化表述必须回到适用安全规范与接触条件，不能作为统一法规限值。",
+    "limits": "",
+    "version": "SLVAG23A，2026-04",
+    "retrievedAt": "2026-10-13",
+    "type": "厂商原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S118",
+    "researchKey": "TP01",
+    "title": "NXP E-Compass 软件与磁标定",
+    "url": "https://www.nxp.com/pages/nxp-e-compass-software:E-Compass",
+    "modules": [
+      "T01",
+      "P01"
+    ],
+    "locator": "产品页 Features 与简介",
+    "scope": "加速度计与磁力计融合用于倾斜补偿航向；硬铁和软铁补偿是不同误差模型。",
+    "limits": "历史 Kinetis/CodeWarrior 案例；只证明方法与旧平台支持，不当作新平台 SDK。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S119",
+    "researchKey": "TP02",
+    "title": "OpenCV 4.13.0 Camera Calibration",
+    "url": "https://docs.opencv.org/4.13.0/dc/dbb/tutorial_py_calibration.html",
+    "modules": [
+      "T01",
+      "P01",
+      "P03"
+    ],
+    "locator": "Camera Calibration；Re-projection Error",
+    "scope": "相机内参和畸变系数可由多幅标定图估计；通过重投影误差检查结果。",
+    "limits": "像素误差、镜头/分辨率、标定姿态覆盖需记录；低标定集误差不能证明所有场景准确。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S120",
+    "researchKey": "TP03",
+    "title": "TI SPRABQ2 有感 PMSM FOC",
+    "url": "https://www.ti.com/lit/an/sprabq2/sprabq2.pdf",
+    "modules": [
+      "T02",
+      "P02"
+    ],
+    "locator": "§4.5 Clarke、§4.6 Park、§5 FOC、§9 incremental build，印刷页6–8、22–25",
+    "scope": "在定义 α 轴与 a 轴一致、d 轴对准转子磁链的约定下，Park 将静止正交电流变到旋转坐标；电流 PI 与 SVPWM 构成闭环。",
+    "limits": "2013 年控制例，坐标归一化和 q 轴符号须明确；两相重构第三相要求三线系统瞬时电流和为零。不能原样照搬高压平台。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S121",
+    "researchKey": "TP04",
+    "title": "Microchip AN1078B 无感 PMSM FOC",
+    "url": "https://ww1.microchip.com/downloads/en/AppNotes/01078B.pdf",
+    "modules": [
+      "T02",
+      "P02"
+    ],
+    "locator": "Coordinate Transforms / PI Control 印刷页8；SMO 印刷页14–17；Flow Charts 页22",
+    "scope": "PI 实现包含输出限幅反馈以缓解积分饱和；滑模观测器用测量电流与模型电流误差估计反电动势，滤波延迟影响角度估计。",
+    "limits": "DS01078B，2010 历史应用笔记；反电动势观测与启动分别验证，不能宣称无感在零速天然可用。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S122",
+    "researchKey": "TP05",
+    "title": "TI C2000 MotorControl SDK 软件指南",
+    "url": "https://software-dl.ti.com/C2000/docs/software_guide/mcsdk.html",
+    "modules": [
+      "T02",
+      "T05",
+      "T06",
+      "P02",
+      "P04"
+    ],
+    "locator": "Features；Supported Solutions Table 3",
+    "scope": "官方 SDK 提供有感/无感控制、编码器、MTPA、弱磁、保护与实时通信示例；FCL 用硬件资源降低采样、处理和执行延迟。",
+    "limits": "页面 v1.5；硬件支持、SDK 版本与库功能需在实际构建时锁定，厂商性能描述不是所有用户系统保证。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S123",
+    "researchKey": "TP06",
+    "title": "NXP AN12214 Rev.1 PMSM FOC on i.MX RT",
+    "url": "https://www.nxp.com/docs/en/application-note/AN12214.pdf",
+    "modules": [
+      "T02",
+      "T05",
+      "P02"
+    ],
+    "locator": "§3.1.1、§3.1.2.2–.9，页2–6；§5 参数与调试",
+    "scope": "示例用 PWM 硬件触发 ADC、转换完成中断计算 FOC，并由独立慢环处理速度；死区和有效采样时刻共同决定采样窗口。",
+    "limits": "Rev.1 2022-01-20；参考板 24–48 VDC、5 A RMS 为板范围，不是通用安全边界。其快环10 kHz/慢环1 kHz是案例数值。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S124",
+    "researchKey": "TP07",
+    "title": "Jetson Linux r36.3 Camera Development",
+    "url": "https://docs.nvidia.com/jetson/archives/r36.3/DeveloperGuide/SD/CameraDevelopment.html",
+    "modules": [
+      "T01",
+      "T03",
+      "T07",
+      "P01",
+      "P03"
+    ],
+    "locator": "Camera Software Development Solution；Sensor Software Driver Programming",
+    "scope": "摄像头系统含驱动、设备树、V4L2、libargus/GStreamer 与 ISP 路径；接口接通与图像质量调试是不同工作。",
+    "limits": "固定 r36.3 历史版本案例，不称当前最新版；目标模块、JetPack、内核、传感器模式和驱动需匹配。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S125",
+    "researchKey": "TP08",
+    "title": "Jetson Linux r35.3.1 Platform Power and Performance",
+    "url": "https://docs.nvidia.com/jetson/archives/r35.3.1/DeveloperGuide/text/SD/PlatformPowerAndPerformance.html",
+    "modules": [
+      "T03",
+      "T06",
+      "P03",
+      "P04"
+    ],
+    "locator": "Platform Power and Performance 总览及 Orin 子页索引",
+    "scope": "软件层可观察与控制时钟、电压、功耗和热管理；不同 Orin/Xavier 系列分别说明。",
+    "limits": "固定 r35.3.1 历史文档；功耗模式应在同版本子页复核，不能把模块模式功耗等同墙端整机功耗。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S126",
+    "researchKey": "TP09",
+    "title": "NVIDIA TensorRT Working with Quantized Types",
+    "url": "https://docs.nvidia.com/deeplearning/tensorrt/latest/inference-library/work-with-quantized-types.html",
+    "modules": [
+      "T03",
+      "T08",
+      "P01",
+      "P03"
+    ],
+    "locator": "Quantization Workflows / Schemes / Explicit Quantization 导航与说明",
+    "scope": "官方量化路径区分 PTQ 与 QAT，并提供 Q/DQ 显式量化网络说明。",
+    "limits": "网页为动态 latest 文档，需锁定实际部署 TensorRT 版本、设备支持、数据集和精度指标；不能仅因 INT8 推断所有设备更快。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S127",
+    "researchKey": "TP10",
+    "title": "TI BQ76952 Technical Reference Manual Rev.B",
+    "url": "https://www.ti.com/lit/ug/sluuby2b/sluuby2b.pdf",
+    "modules": [
+      "T04",
+      "T06",
+      "P04"
+    ],
+    "locator": "§4.3、4.4、4.10–4.13；§5；§10",
+    "scope": "监测器分别描述电压/电流同步、库仑计、校准、保护与均衡；配置阈值与测量数据分属功能路径。",
+    "limits": "SLUUBY2B 2022-05；3–16 串监测方案与保护用途，不能把均衡或库仑计直接说成完整 SOC/SOH 算法。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S128",
+    "researchKey": "TP11",
+    "title": "TI SLUAAR3 Battery Gauging Algorithm Comparison",
+    "url": "https://www.ti.com/lit/SLUAAR3",
+    "modules": [
+      "T04",
+      "P04"
+    ],
+    "locator": "§2–7，印刷页2–10",
+    "scope": "库仑积分依赖初始电量和有效容量；温度与老化使可用容量、阻抗变化。电压、IR 补偿、库仑计、CEDV、Impedance Track 是不同估计方法。",
+    "limits": "文档实际日期 2023-12；搜索抓取发布日期不能当修订日期。误差百分比仅是该文两个负载测试结果。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S129",
+    "researchKey": "TP12",
+    "title": "TI SSZT301 battery current accuracy",
+    "url": "https://www.ti.com/document-viewer/lit/html/SSZT301/GUID-DD37D26C-2211-4512-8447-F20D8399C376",
+    "modules": [
+      "T04",
+      "T09",
+      "P04"
+    ],
+    "locator": "Current ADC measurement；正文§3首段",
+    "scope": "电流测量偏置积分成虚假累计电量；小分流电阻减小热损耗，同时缩小可测电压。",
+    "limits": "2020-05 技术文章；分流电阻选择要联合量程、功率、温漂及校准，不套用固定阻值。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S130",
+    "researchKey": "TP13",
+    "title": "ROS 2 Introduction to Real-time Systems",
+    "url": "https://design.ros2.org/articles/realtime_background.html",
+    "modules": [
+      "T05",
+      "T06",
+      "P04"
+    ],
+    "locator": "Memory management；Testing and Performance Benchmarking / cyclictest",
+    "scope": "实时路径需控制缺页、动态内存和非确定阻塞；调度抖动可通过周期唤醒延迟测量。",
+    "limits": "设计文章 2016-05；并不证明当前 ROS 2 发行版天然硬实时，必须对内核、执行器、中间件和负载整体测量。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S131",
+    "researchKey": "TP14",
+    "title": "ROS 2 QoS Deadline Liveliness Lifespan",
+    "url": "https://design.ros2.org/articles/qos_deadline_liveliness_lifespan.html",
+    "modules": [
+      "T05",
+      "P01",
+      "P04"
+    ],
+    "locator": "New QoS Settings / Deadline；Future Work",
+    "scope": "Deadline 约束消息间隔，Liveliness 监控活跃性，Lifespan 面向数据有效期；通信策略须与节点失效处理结合。",
+    "limits": "早期设计文章，未来工作和默认值不是当前 API 保证；实际 RMW 和发行版需查文档。Deadline 不等同消息端到端延迟保证。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S132",
+    "researchKey": "TP15",
+    "title": "TI TIDM-02006 Distributed Multi-axis Servo Drive",
+    "url": "https://www.ti.com/tool/TIDM-02006",
+    "modules": [
+      "T05",
+      "T06",
+      "P02",
+      "P04"
+    ],
+    "locator": "Overview；Features",
+    "scope": "案例由主节点执行位置/速度环，分布节点执行电流/转矩环，使用 FSI 交换数据并演示跨轴 PWM 同步。",
+    "limits": "参考设计的最多16轴与硬件型号只适用于该架构，不自动外推到 EtherCAT 或任意 MCU。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S133",
+    "researchKey": "TP16",
+    "title": "TI SLVA959B Motor Driver Board Layout",
+    "url": "https://www.ti.com/lit/an/slva959b/slva959b.pdf",
+    "modules": [
+      "T06",
+      "T07",
+      "P02",
+      "P04"
+    ],
+    "locator": "§1 Grounding；§2 Thermal；§6 Power stage；§7 Current Sense",
+    "scope": "布局需同时约束功率回路、开关节点、热路径和电流采样；高侧分流与低侧分流的共模要求与可测电流状态不同。",
+    "limits": "Rev.B 2021-10，具体芯片接地与滤波仍以数据手册为准，不能把分地建议泛化。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S134",
+    "researchKey": "TP17",
+    "title": "AMD UG1399 HLS Synthesis Summary 2026.1",
+    "url": "https://docs.amd.com/r/en-US/ug1399-vitis-hls/Synthesis-Summary",
+    "modules": [
+      "T08"
+    ],
+    "locator": "Performance & Resource Estimates；Timing Estimate",
+    "scope": "Latency 是输入到输出所需周期，II 是可接收相邻输入的间隔；HLS 时序资源报告仍是估计，需综合实现进一步验证。",
+    "limits": "2026.1，发布2026-09-11；不能把 HLS 估计或 II=1 宣称成系统端到端结果。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S135",
+    "researchKey": "TP18",
+    "title": "AMD UG949 Single-Bit CDC 2026.1",
+    "url": "https://docs.amd.com/r/en-US/ug949-vivado-design-methodology/Single-Bit-CDC",
+    "modules": [
+      "T08",
+      "T05"
+    ],
+    "locator": "Single-Bit CDC decision tree",
+    "scope": "跨时钟域需按单比特信号类型选同步结构，时钟域关系和事件宽度决定实现选择。",
+    "limits": "2026.1，发布2026-06-23；页面图仅覆盖单比特，不能用双触发器逐位同步来保证多位总线一致性。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S136",
+    "researchKey": "TP19",
+    "title": "ADI Precision ADC Tutorial",
+    "url": "https://wiki.analog.com/university/labs/software/precision_adc_toolbox",
+    "modules": [
+      "T09",
+      "T01",
+      "P00",
+      "P01"
+    ],
+    "locator": "Introduction；AD7124 capture/noise/filter 实验章节",
+    "scope": "精密转换实验把 IIO 采集、滤波设置、噪声统计与低电平热效应结合；标称采样率不等同数字滤波通带。",
+    "limits": "AD7124 与特定驱动/测试板案例；代码、采样率和数据路径需按实际版本复现。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S137",
+    "researchKey": "TP20",
+    "title": "ADI AN-96 Delta Sigma ADC Bridge Measurement",
+    "url": "https://www.analog.com/en/resources/app-notes/an-96fa.html",
+    "modules": [
+      "T09",
+      "T01",
+      "P00",
+      "P01"
+    ],
+    "locator": "Figure 2 pressure logger；ADC Response to Amplifier Noise",
+    "scope": "桥式传感可采用比率测量降低激励漂移影响；系统噪声必须联合前端与 ADC 滤波带宽评估。",
+    "limits": "LTC2411/LTC2440 历史具体案例；不把24位分辨率等同24位有效精度。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S138",
+    "researchKey": "TP21",
+    "title": "TI TIDM-02002 CLLLC Bidirectional DAB",
+    "url": "https://www.ti.com/tool/TIDM-02002",
+    "modules": [
+      "T10",
+      "T04"
+    ],
+    "locator": "Overview；Features",
+    "scope": "参考设计演示双向 CLLLC 谐振 DAB 的电压/电流闭环、软开关和同步整流。",
+    "limits": "380–600 V/280–450 V、6.6 kW 为高压案例；CLLLC 与普通移相 DAB 模型须分开，峰值98%不能作为所有工况效率。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S139",
+    "researchKey": "TP22",
+    "title": "Keysight VNA Measurement Parameters",
+    "url": "https://helpfiles.keysight.com/csg/NA520xA/S1_Settings/Measurement_Parameters.htm",
+    "modules": [
+      "T11",
+      "T07"
+    ],
+    "locator": "S-Parameters；Common Measurements",
+    "scope": "Sij 的 i 是输出测量端口、j 是激励端口；S11/S22 用于反射，S21/S12 用于传输。",
+    "limits": "需明确参考阻抗、频率、端口方向与校准平面，S 参数是波量比，不直接是瓦特。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S140",
+    "researchKey": "TP23",
+    "title": "Keysight Accurate Measurement Calibrations",
+    "url": "https://helpfiles.keysight.com/csg/pxivna/S3_Cals/Accurate.htm",
+    "modules": [
+      "T11",
+      "T12"
+    ],
+    "locator": "Measurement Reference Plane；Using Port Extensions",
+    "scope": "校准平面是标准件接入的位置；将其移到 DUT 连接处可校正中间线缆与夹具影响。",
+    "limits": "标准件定义、连接器、频段及功率需匹配；端口延伸和完整夹具去嵌不能不加条件互换。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S141",
+    "researchKey": "TP24",
+    "title": "ISO 10218-1:2025 标准范围",
+    "url": "https://www.iso.org/standard/73933.html",
+    "modules": [
+      "T06",
+      "T12",
+      "P04"
+    ],
+    "locator": "Edition / Publication date；Abstract / scope",
+    "scope": "2025 第3版适用于工业机器人本体；机器人应用和单元集成由 ISO 10218-2:2025 处理。",
+    "limits": "仅公开目录/摘要核实，不声称已读取付费全文条款；不是所有服务机器人、公众可接触产品的通用适用标准。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S142",
+    "researchKey": "TP25",
+    "title": "NIST Reliability Handbook: Lack of failures",
+    "url": "https://www.itl.nist.gov/div898/handbook/apr/section1/apr132.htm",
+    "modules": [
+      "T12",
+      "P04"
+    ],
+    "locator": "8.1.3.2 Lack of failures",
+    "scope": "少量甚至零故障不足以精确评估失效率；加速应力试验需要模型把测试结果关联到使用条件。",
+    "limits": "网页概念说明，不能把短时间无故障或有限样本测试当作长期可靠性证明。",
+    "version": "来源未提供统一版本",
+    "retrievedAt": "2026-10-13",
+    "type": "official-primary",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S143",
+    "researchKey": "EX-memory",
+    "title": "MIT 6.004 Memory Technologies",
+    "url": "https://ocw.mit.edu/courses/6-004-computation-structures-spring-2017/pages/c14/c14s1/",
+    "modules": [
+      "D06",
+      "E07"
+    ],
+    "locator": "Memory Technologies / SRAM Cell / 1T DRAM / Flash",
+    "scope": "SRAM反馈、DRAM电荷保持及刷新、非易失存储",
+    "limits": "2017大学课程，芯片工艺数值不是当前通用参数",
+    "version": "见定位/限制",
+    "retrievedAt": "2026-10-13",
+    "type": "原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S144",
+    "researchKey": "EX-volatile",
+    "title": "GCC Volatiles",
+    "url": "https://gcc.gnu.org/onlinedocs/gcc/Volatiles.html",
+    "modules": [
+      "C04"
+    ],
+    "locator": "When is a Volatile Object Accessed?",
+    "scope": "volatile不提供普通内存访问排序，不能替代内存屏障",
+    "limits": "实现说明，不代替全部C/C++内存模型",
+    "version": "见定位/限制",
+    "retrievedAt": "2026-10-13",
+    "type": "原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S145",
+    "researchKey": "EX-estimate",
+    "title": "ADI Kalman or FIR Filter for My IMU",
+    "url": "https://www.analog.com/en/resources/analog-dialogue/raqs/raq-issue-127.html",
+    "modules": [
+      "C03",
+      "T01"
+    ],
+    "locator": "Kalman filter prediction and correction",
+    "scope": "估计由预测与测量修正构成，依赖模型",
+    "limits": "简化说明，不证明任何具体估计器性能",
+    "version": "见定位/限制",
+    "retrievedAt": "2026-10-13",
+    "type": "原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S146",
+    "researchKey": "EX-topology",
+    "title": "TI How to Approach a Power-Supply Design Part2",
+    "url": "https://www.ti.com/lit/an/slvafj4/slvafj4.pdf",
+    "modules": [
+      "G01"
+    ],
+    "locator": "pp.1–2 topology selection",
+    "scope": "非隔离/隔离拓扑选择因素和能量结构",
+    "limits": "2023-03；典型功率段非绝对上限；变比算例独立推导",
+    "version": "见定位/限制",
+    "retrievedAt": "2026-10-13",
+    "type": "原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S147",
+    "researchKey": "EX-mos",
+    "title": "MIT6.012 Lecture9 MOSFET Saturation",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-spring-2009/4dd0f37dcb3a9617b66b82a33894ef73_MIT6_012S09_lec09.pdf",
+    "modules": [
+      "A01",
+      "A02"
+    ],
+    "locator": "MOSFET in Saturation / Backgate Effect",
+    "scope": "长沟道MOS工作区和饱和模型",
+    "limits": "体效应、长度调制与短沟道需额外模型",
+    "version": "见定位/限制",
+    "retrievedAt": "2026-10-13",
+    "type": "原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S148",
+    "researchKey": "EX-i2c",
+    "title": "NXP UM10204 I2C specification",
+    "url": "https://www.nxp.com/docs/en/user-guide/UM10204.pdf",
+    "modules": [
+      "G03",
+      "E08"
+    ],
+    "locator": "§7.1 pp.50–51",
+    "scope": "RC上拉30%–70%时间0.8473RC、灌电流与电容限制",
+    "limits": "Rev7.0 2021-10-01；按所用模式及器件条件核",
+    "version": "见定位/限制",
+    "retrievedAt": "2026-10-13",
+    "type": "原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S149",
+    "researchKey": "EX-four",
+    "title": "TI efficient non-inverting Buck-Boost",
+    "url": "https://www.ti.com/lit/an/slyt584/slyt584.pdf",
+    "modules": [
+      "G01",
+      "G02"
+    ],
+    "locator": "Topology / Current waveforms",
+    "scope": "四开关升降压模式与额外开关损耗权衡",
+    "limits": "具体例非任意控制器通用配置",
+    "version": "见定位/限制",
+    "retrievedAt": "2026-10-13",
+    "type": "原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S150",
+    "researchKey": "EX-sch",
+    "title": "KiCad9 Schematic Editor",
+    "url": "https://docs.kicad.org/9.0/en/eeschema/eeschema.html",
+    "modules": [
+      "G05",
+      "G10"
+    ],
+    "locator": "Electrical Rules Check / BOM / Symbols",
+    "scope": "ERC、库管理和BOM输出流程",
+    "limits": "固定9.0文档；规则检查不证明性能",
+    "version": "见定位/限制",
+    "retrievedAt": "2026-10-13",
+    "type": "原始资料",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S151",
+    "researchKey": "DEEP-S151",
+    "title": "UCSD ECE65：Transistors Bias & Signal Circuits",
+    "url": "https://web.eng.ucsd.edu/ece/groups/electromagnetics/Classes/ECE65Spring2012/FN-Notes/main/Amp-1.pdf",
+    "modules": [
+      "A01",
+      "A02"
+    ],
+    "locator": "PDF第4–7页（5-4至5-7）：§5.2偏置；PDF第20–22页：§5.3.3 BJT小信号模型",
+    "scope": "BJT带载分压偏置、固定VBE与β的回路方程；gm=IC/VT与rπ=β/gm。",
+    "limits": "仅核对所列公式；讲义中的通用温漂百分比不作为网站结论，工作区严格用VBC检查。",
+    "version": "Winter 2012（讲义署期）",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S152",
+    "researchKey": "DEEP-S152",
+    "title": "MIT 6.301 Recitation 7：Emitter Degeneration",
+    "url": "https://ocw.mit.edu/courses/6-301-solid-state-circuits-fall-2010/e8f9535e97dd8938feb53488395d54e3_MIT6_301F10_rec07.pdf",
+    "modules": [
+      "A02"
+    ],
+    "locator": "PDF第3–4页：输入阻抗/有效跨导；第7页：源终接与共集输出阻抗",
+    "scope": "中频混合π模型下的发射极退化、源加载与输出阻抗。",
+    "limits": "忽略ro的简化；β有限时保留1/rπ项，输出电阻分析移除外部RL。",
+    "version": "Fall 2010",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S153",
+    "researchKey": "DEEP-S153",
+    "title": "MIT 6.012 Spring 1998 Lecture19：Common Base / Common Collector",
+    "url": "https://web.mit.edu/course/6/6.012/SPR98/www/lectures/S98_Lecture19.pdf",
+    "modules": [
+      "A02"
+    ],
+    "locator": "PDF第1–5页共基；第8–11页共集；第13–14页两端口汇总",
+    "scope": "共基/共集电压增益、输入输出阻抗及端口电流约定。",
+    "limits": "这是1998版本；2009 lec20正文为MOS不可混用。两端口电流都流入时电流增益符号与器件电流幅度比不同。",
+    "version": "Spring 1998",
+    "retrievedAt": "2026-10-13",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；未全文审核"
+  }
+]

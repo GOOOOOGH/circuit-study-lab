@@ -1,0 +1,422 @@
+[
+  {
+    "id": "TERM001",
+    "term": "KCL",
+    "definition": "节点电流代数和为零；参考方向必须一致。",
+    "moduleId": "F02"
+  },
+  {
+    "id": "TERM002",
+    "term": "KVL",
+    "definition": "集中参数回路电压代数和为零，需考虑感应及模型边界。",
+    "moduleId": "F02"
+  },
+  {
+    "id": "TERM003",
+    "term": "RMS",
+    "definition": "均方根用于同电阻平均功率等效，非任意波形峰值除√2。",
+    "moduleId": "F03"
+  },
+  {
+    "id": "TERM004",
+    "term": "相量",
+    "definition": "同频正弦的复幅表示，需固定峰值或RMS、参考和eʲωt约定。",
+    "moduleId": "F03"
+  },
+  {
+    "id": "TERM005",
+    "term": "Q点",
+    "definition": "器件直流工作点，小信号模型在其附近线性化。",
+    "moduleId": "A02"
+  },
+  {
+    "id": "TERM006",
+    "term": "gm",
+    "definition": "跨导：局部输出电流对输入控制电压导数，单位S。",
+    "moduleId": "A02"
+  },
+  {
+    "id": "TERM007",
+    "term": "rπ",
+    "definition": "BJT基极输入小信号电阻，近似β/gm。",
+    "moduleId": "A02"
+  },
+  {
+    "id": "TERM008",
+    "term": "VGS(th)",
+    "definition": "MOS阈值按规定小电流测试，不保证目标RDS(on)。",
+    "moduleId": "A01"
+  },
+  {
+    "id": "TERM009",
+    "term": "SOA",
+    "definition": "安全工作区，需同时给电压、电流、脉宽、温度和重复条件。",
+    "moduleId": "E03"
+  },
+  {
+    "id": "TERM010",
+    "term": "CMRR",
+    "definition": "共模抑制比，差模/共模增益之比，随频率及条件变化。",
+    "moduleId": "A03"
+  },
+  {
+    "id": "TERM011",
+    "term": "PSRR",
+    "definition": "电源扰动到输出/输入等效误差的抑制能力，定义和频率需查手册。",
+    "moduleId": "A09"
+  },
+  {
+    "id": "TERM012",
+    "term": "GBW",
+    "definition": "增益带宽积；单主极点近似有效，不代替压摆率和稳定性。",
+    "moduleId": "E04"
+  },
+  {
+    "id": "TERM013",
+    "term": "SR",
+    "definition": "压摆率，输出最大电压变化速度；满幅高速正弦需检查。",
+    "moduleId": "E04"
+  },
+  {
+    "id": "TERM014",
+    "term": "噪声增益",
+    "definition": "运放输入等效误差/噪声到输出的增益，与信号增益可不同。",
+    "moduleId": "A06"
+  },
+  {
+    "id": "TERM015",
+    "term": "米勒效应",
+    "definition": "跨输入输出电容在反相增益下可能放大输入等效电容。",
+    "moduleId": "A04"
+  },
+  {
+    "id": "TERM016",
+    "term": "相位裕量",
+    "definition": "给定负反馈环路在增益交越的相位距临界值的量。",
+    "moduleId": "A05"
+  },
+  {
+    "id": "TERM017",
+    "term": "迟滞",
+    "definition": "随当前状态不同采用两个切换阈值。",
+    "moduleId": "A07"
+  },
+  {
+    "id": "TERM018",
+    "term": "交越失真",
+    "definition": "推挽两支路在转换附近非理想导通造成的失真。",
+    "moduleId": "A08"
+  },
+  {
+    "id": "TERM019",
+    "term": "补码",
+    "definition": "有限位有符号编码，最高位负权；溢出与无符号进位不同。",
+    "moduleId": "D01"
+  },
+  {
+    "id": "TERM020",
+    "term": "卡诺图",
+    "definition": "按格雷邻接分组化简逻辑，边界可回绕。",
+    "moduleId": "D01"
+  },
+  {
+    "id": "TERM021",
+    "term": "开漏",
+    "definition": "输出只能主动拉低，需外部上拉形成高态。",
+    "moduleId": "D02"
+  },
+  {
+    "id": "TERM022",
+    "term": "扇出",
+    "definition": "输出可驱动输入负载能力，静态电流和动态电容均要核。",
+    "moduleId": "D02"
+  },
+  {
+    "id": "TERM023",
+    "term": "建立/保持",
+    "definition": "有效采样边沿前/后输入应稳定的时间窗口。",
+    "moduleId": "D04"
+  },
+  {
+    "id": "TERM024",
+    "term": "亚稳态",
+    "definition": "触发器违规采样后可能延长解析时间，同步降低传播概率但不归零。",
+    "moduleId": "D04"
+  },
+  {
+    "id": "TERM025",
+    "term": "CDC",
+    "definition": "跨时钟域传输，按单比特、多位和事件特性选择结构。",
+    "moduleId": "D05"
+  },
+  {
+    "id": "TERM026",
+    "term": "FSM",
+    "definition": "有限状态机，状态、输入、输出和允许转换需完整定义。",
+    "moduleId": "D05"
+  },
+  {
+    "id": "TERM027",
+    "term": "SRAM",
+    "definition": "反馈保存位的易失存储，通常无需刷新。",
+    "moduleId": "D06"
+  },
+  {
+    "id": "TERM028",
+    "term": "DRAM",
+    "definition": "用电荷保存位，通常需要刷新。",
+    "moduleId": "D06"
+  },
+  {
+    "id": "TERM029",
+    "term": "Flash",
+    "definition": "非易失存储，编程/擦除粒度、耐久和掉电一致性需管理。",
+    "moduleId": "D06"
+  },
+  {
+    "id": "TERM030",
+    "term": "LSB",
+    "definition": "理想均匀转换一个代码步长；不是整系统准确度。",
+    "moduleId": "D08"
+  },
+  {
+    "id": "TERM031",
+    "term": "ENOB",
+    "definition": "由指定动态信噪失真指标推得有效位数，不等于标称位数。",
+    "moduleId": "D08"
+  },
+  {
+    "id": "TERM032",
+    "term": "INL/DNL",
+    "definition": "积分/微分非线性，定义需与手册端点/拟合规则一致。",
+    "moduleId": "D08"
+  },
+  {
+    "id": "TERM033",
+    "term": "混叠",
+    "definition": "采样前带外成分折入目标频带，事后滤波不能完全撤销。",
+    "moduleId": "C01"
+  },
+  {
+    "id": "TERM034",
+    "term": "FFT窗",
+    "definition": "抑制截断泄漏但改变主瓣、幅度和噪声带宽。",
+    "moduleId": "C01"
+  },
+  {
+    "id": "TERM035",
+    "term": "FIR/IIR",
+    "definition": "有限冲激响应/含反馈递归滤波，复杂度、相位及稳定性权衡不同。",
+    "moduleId": "C01"
+  },
+  {
+    "id": "TERM036",
+    "term": "PI/PID",
+    "definition": "比例积分/比例积分微分控制，参数定义、单位和限幅需明确。",
+    "moduleId": "C02"
+  },
+  {
+    "id": "TERM037",
+    "term": "抗积分饱和",
+    "definition": "执行限幅时抑制积分过量积累，如条件积分、回算。",
+    "moduleId": "C03"
+  },
+  {
+    "id": "TERM038",
+    "term": "ZOH",
+    "definition": "零阶保持，输入在采样区间分段恒定。",
+    "moduleId": "C03"
+  },
+  {
+    "id": "TERM039",
+    "term": "Tustin",
+    "definition": "双线性变换近似连续到离散，存在频率扭曲。",
+    "moduleId": "C03"
+  },
+  {
+    "id": "TERM040",
+    "term": "CCM/DCM",
+    "definition": "电感电流连续/不连续模式；变比与动态模型可不同。",
+    "moduleId": "G02"
+  },
+  {
+    "id": "TERM041",
+    "term": "PWM/PFM",
+    "definition": "脉宽/频率调制，效率、纹波谱和动态权衡。",
+    "moduleId": "G02"
+  },
+  {
+    "id": "TERM042",
+    "term": "ZVS/ZCS",
+    "definition": "零电压/零电流切换条件，可降低部分损耗但有工作范围。",
+    "moduleId": "G01"
+  },
+  {
+    "id": "TERM043",
+    "term": "PFC",
+    "definition": "功率因数校正，关注输入电流形状与母线控制。",
+    "moduleId": "G01"
+  },
+  {
+    "id": "TERM044",
+    "term": "LLC",
+    "definition": "Lr、Lm、Cr谐振结构，增益和软开关随频率/负载变化。",
+    "moduleId": "G01"
+  },
+  {
+    "id": "TERM045",
+    "term": "DAB",
+    "definition": "双有源桥双向传能；匝比折算和相移定义必须一致。",
+    "moduleId": "G01"
+  },
+  {
+    "id": "TERM046",
+    "term": "ESR/ESL",
+    "definition": "电容等效串联电阻/电感，影响纹波、损耗和高频去耦。",
+    "moduleId": "E01"
+  },
+  {
+    "id": "TERM047",
+    "term": "Isat/Irms",
+    "definition": "电感饱和/热电流指标，按厂家规定下降比例/温升定义。",
+    "moduleId": "E01"
+  },
+  {
+    "id": "TERM048",
+    "term": "VRWM/Vclamp",
+    "definition": "保护器件工作反压/指定瞬态电流下钳位，不能当同一电压。",
+    "moduleId": "E02"
+  },
+  {
+    "id": "TERM049",
+    "term": "SI/PI",
+    "definition": "信号完整性/电源完整性，互连、回流和PDN协同验证。",
+    "moduleId": "G04"
+  },
+  {
+    "id": "TERM050",
+    "term": "UI",
+    "definition": "单位符号间隔，二进制比特流常为1/bitrate。",
+    "moduleId": "G04"
+  },
+  {
+    "id": "TERM051",
+    "term": "TDR",
+    "definition": "时域反射测量，用于互连阻抗/不连续定位，需校准与带宽条件。",
+    "moduleId": "G04"
+  },
+  {
+    "id": "TERM052",
+    "term": "IBIS",
+    "definition": "I/O电气/边沿模型，不等于完整协议或逻辑功能仿真。",
+    "moduleId": "G04"
+  },
+  {
+    "id": "TERM053",
+    "term": "PDN",
+    "definition": "电源分布网络，VRM/板/封装/芯片与负载共同决定阻抗谱。",
+    "moduleId": "G04"
+  },
+  {
+    "id": "TERM054",
+    "term": "ERC/DRC",
+    "definition": "电气/设计规则检查，不能替代性能、稳定性与合规测试。",
+    "moduleId": "G05"
+  },
+  {
+    "id": "TERM055",
+    "term": "DFM/DFT",
+    "definition": "面向制造/测试设计，提前考虑工艺与可测试性。",
+    "moduleId": "G07"
+  },
+  {
+    "id": "TERM056",
+    "term": "Gerber",
+    "definition": "PCB制造层数据格式，钻孔和制造/装配说明需配套。",
+    "moduleId": "G07"
+  },
+  {
+    "id": "TERM057",
+    "term": "DNP",
+    "definition": "不装配项，应在BOM、坐标/装配图和版本中一致。",
+    "moduleId": "G07"
+  },
+  {
+    "id": "TERM058",
+    "term": "共模/差模",
+    "definition": "同参考方向两线电流分解，返回路径和抑制方法不同。",
+    "moduleId": "G08"
+  },
+  {
+    "id": "TERM059",
+    "term": "ESD/EFT/浪涌",
+    "definition": "不同瞬态抗扰机制、波形、能量及耦合方式。",
+    "moduleId": "G08"
+  },
+  {
+    "id": "TERM060",
+    "term": "ECN",
+    "definition": "工程变更记录，原因、影响、批准和实施批次可追溯。",
+    "moduleId": "G10"
+  },
+  {
+    "id": "TERM061",
+    "term": "首通良率",
+    "definition": "投入中首次测试通过比例，与返修后最终良率分开。",
+    "moduleId": "G10"
+  },
+  {
+    "id": "TERM062",
+    "term": "Clarke/Park",
+    "definition": "三相到静止正交/旋转dq坐标变换，归一化与符号需统一。",
+    "moduleId": "T02"
+  },
+  {
+    "id": "TERM063",
+    "term": "SVPWM",
+    "definition": "两电平空间矢量调制，电压范围、采样窗及死区共同检查。",
+    "moduleId": "T02"
+  },
+  {
+    "id": "TERM064",
+    "term": "MTPA/弱磁",
+    "definition": "给定电流最大转矩/高速电压约束控制，依电机参数和工作范围。",
+    "moduleId": "T02"
+  },
+  {
+    "id": "TERM065",
+    "term": "SOC/SOH",
+    "definition": "电量状态/健康状态估计，初值、容量、偏置和基准定义重要。",
+    "moduleId": "T04"
+  },
+  {
+    "id": "TERM066",
+    "term": "再生制动",
+    "definition": "机械能回到电源母线，需要可接受的存储或耗散路径。",
+    "moduleId": "T06"
+  },
+  {
+    "id": "TERM067",
+    "term": "PTQ/QAT",
+    "definition": "训练后量化/量化感知训练，版本、数据与精度验证必需。",
+    "moduleId": "T03"
+  },
+  {
+    "id": "TERM068",
+    "term": "吞吐/延迟",
+    "definition": "单位时间完成量/单项等待至完成时间，不可互换。",
+    "moduleId": "T03"
+  },
+  {
+    "id": "TERM069",
+    "term": "II/Latency",
+    "definition": "流水启动间隔/核心周期延迟，不等于系统端到端指标。",
+    "moduleId": "T08"
+  },
+  {
+    "id": "TERM070",
+    "term": "S参数",
+    "definition": "端口波量比，i为响应端j为激励端，参考与校准平面明确。",
+    "moduleId": "T11"
+  }
+]
