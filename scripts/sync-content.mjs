@@ -48,6 +48,12 @@ export async function syncContent() {
       if(!l.sourceIds.every(id=>l.sourceChecks.some(check=>check.sourceId===id)))throw Error(`讲义 ${l.id} 来源尚未逐项记录`);
     }
   }
+  const diagramKinds=new Set(['cascade','differential','mirror','opamp']);
+  for(const l of lessons){
+    if(l.experimentMode&&(!diagramKinds.has(l.experimentMode)||l.experimentId!=='X04'))throw Error(`讲义 ${l.id} 深化实验模式无效`);
+    for(const section of l.sections)if(section.figure&&!diagramKinds.has(section.figure))throw Error(`讲义 ${l.id} 图解类型无效`);
+    if(l.teaching){const t=l.teaching;if(!t.question||!t.hint||!t.conditions||t.steps.length<3||t.steps.some(s=>!s.title||!s.text)||t.related.some(r=>!lessonIds.has(r.id)||!r.title))throw Error(`讲义 ${l.id} 深化教学引用/步骤不完整`);}
+  }
   const moduleOrder=new Map(modules.map((m,i)=>[m.id,i]));
   lessons.sort((a,b)=>moduleOrder.get(a.moduleId)-moduleOrder.get(b.moduleId)||(a.order||1)-(b.order||1)||a.id.localeCompare(b.id));
   await mkdir(path.join(root,'src/generated'),{recursive:true});
