@@ -1,0 +1,13 @@
+export type Module={id:string;type:string;title:string;summary:string;prerequisites?:string;priority?:string;role?:string;research?:string;deliverables?:string};
+export type Source={id:string;title:string;url:string;summary:string;retrievedAt:string};
+export type Question={id?:string;prompt:string;options:string[];correct:number;explanation:string};
+export type Lesson={id:string;moduleId:string;title:string;subtitle:string;status:'draft'|'reviewed'|'crosschecked';order?:number;experimentId?:string;sourceIds:string[];sourceChecks?:{sourceId:string;locator:string;scope:string}[];reviewedAt?:string;formula:string;objectives:string[];sections:{title:string;text:string}[];examples?:{title:string;prompt:string;steps:string[];answer:string;check:string;diagram?:string}[];pitfalls?:string[];observation:string;question:Question;questions?:Question[];review:string};
+export type SourceDetail={id:string;locator:string;scope:string;limits:string;version:string;type:string;verification:string};
+export type Case={id:string;title:string;sourceId:string;publishedAt:string;dateType:string;retrievedAt:string;moduleIds:string[];summary:string;conditions:string;status:string;task:string};
+export type TrackDetail={id:string;role:string;tasks:string;tools:string;deliverables:string;interview:string;research:{question:string;baseline:string;metrics:string;steps:string[];limits:string}};
+export type ProjectDetail={id:string;goal:string;steps:string[];experimentIds:string[];files:{title:string;url:string}[];status:string};
+export type Coverage={moduleId:string;scope:string;lessonIds:string[];sections:{lessonId:string;section:number;title:string}[];writingStatus:string;textbookAudit:string};
+export type LessonSummary=Pick<Lesson,'id'|'moduleId'|'title'|'subtitle'|'status'|'order'|'formula'|'experimentId'> & {sections:{title:string}[]};
+export type Catalog={sourceDetails:SourceDetail[];cases:Case[];glossary:{id:string;term:string;definition:string;moduleId:string}[];tracks:TrackDetail[];projects:ProjectDetail[];coverage:Coverage[];textbooks:{id:string;title:string;edition:number;authors:string;isbn:string;url:string;note:string}[];modules:Module[];nav:{id:string;title:string;summary:string}[];experiments:{id:string;title:string;summary:string}[];sources:Source[];lessons:LessonSummary[]};
+export type LearningRecord={version:number;completed:string[];bookmarks:string[];notes:Record<string,string>;answers:Record<string,number>;lastLesson:string|null};
+export type Navigate=(route:string)=>void;
