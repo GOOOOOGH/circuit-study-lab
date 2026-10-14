@@ -1,0 +1,11 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {resistor,divider,rcVoltage,amplifier,logic} from '../src/experiments/models.mjs';
+import {emptyRecord,validateRecord,mergeRecords} from '../src/lib/storage.mjs';
+import {parseRows,syncContent} from '../scripts/sync-content.mjs';
+test('直流模型、负载分压及边界',()=>{assert.deepEqual(resistor(5,1000),{current:.005,power:.025});assert.equal(divider(5,1000,1000).voltage,2.5);assert.ok(Math.abs(divider(5,1000,1000,1000).voltage-5/3)<1e-12);assert.throws(()=>resistor(5,0));assert.throws(()=>divider(NaN,1,1));});
+test('RC 初值、时间常数与终值',()=>{assert.equal(rcVoltage(5,1000,10e-6,0),0);assert.ok(Math.abs(rcVoltage(5,1000,10e-6,.01)/5-(1-Math.exp(-1)))<1e-12);assert.equal(rcVoltage(5,1000,10e-6,0,2),2);assert.ok(rcVoltage(5,1000,10e-6,1)>4.99);assert.throws(()=>rcVoltage(5,1,0,1));assert.throws(()=>rcVoltage(5,1,1,-1));});
+test('同相增益与双向限幅',()=>{assert.deepEqual(amplifier(.5,10000,10000,5),{gain:2,ideal:1,output:1,clipped:false});assert.equal(amplifier(-3,10000,10000,5).output,-5);assert.equal(amplifier(3,10000,10000,5).clipped,true);});
+test('逻辑真值表穷举',()=>{for(const [gate,expected] of [['AND',[0,0,0,1]],['OR',[0,1,1,1]],['XOR',[0,1,1,0]]]) assert.deepEqual([0,1,2,3].map(i=>logic(i>>1,i&1,gate)),expected);assert.throws(()=>logic(2,0,'AND'));});
+test('学习导入保留未知 ID，不丢弃笔记与进度',()=>{const a={...emptyRecord(),completed:['removed-id'],notes:{old:'保留'}};const b={...emptyRecord(),completed:['new'],notes:{new:'新增'}};assert.deepEqual(mergeRecords(a,b).completed,['removed-id','new']);assert.equal(mergeRecords(a,b).notes.old,'保留');assert.throws(()=>validateRecord({version:2}));assert.throws(()=>validateRecord({...emptyRecord(),notes:{a:42}}));});
+test('规划解析支持修改后的标题，课程引用有效',async()=>{assert.equal(parseRows('| F02 | 新标题 | 内容 | F01 |')[0][1],'新标题');const catalog=await syncContent();assert.equal(catalog.nav.length,9);for(const id of ['A10','D09','T01','T02','T03','T04','G08'])assert.ok(catalog.modules.some(m=>m.id===id));assert.ok(catalog.lessons.length>=3);});
