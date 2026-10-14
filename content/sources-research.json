@@ -1564,5 +1564,85 @@
     "retrievedAt": "2026-10-13",
     "type": "大学原始教学",
     "verification": "已访问所列定位；未全文审核"
+  },
+  {
+    "id": "S154",
+    "researchKey": "A03-DEEP-S154",
+    "title": "MIT 6.012 Spring 2001 Lecture 26: Bipolar Differential Amplifiers",
+    "url": "https://web.mit.edu/6.012/SPR01/lecture26.pdf",
+    "modules": [
+      "A03"
+    ],
+    "locator": "PDF第6–7页",
+    "scope": "BJT指数电流比与差分输入；网站由固定集电极电流和自行推导tanh关系。",
+    "limits": "匹配、相同温度、两管正向放大；不把几乎全部电流转移称为器件饱和。",
+    "version": "大学公开教学讲义；版本以链接为准",
+    "retrievedAt": "2026-10-14",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；非整本教材审核"
+  },
+  {
+    "id": "S155",
+    "researchKey": "A03-DEEP-S155",
+    "title": "Texas A&M ECEN 326 Laboratory Manual",
+    "url": "https://people.engr.tamu.edu/hoyos/courses/326/lab326.pdf",
+    "modules": [
+      "A03"
+    ],
+    "locator": "PDF第11–12页 Lab 4",
+    "scope": "差分对发射极退化与有限尾源电阻的单端共模增益。",
+    "limits": "公式适用该实验近似；单端共模不等于完全匹配双端的共模转换。",
+    "version": "大学公开教学讲义；版本以链接为准",
+    "retrievedAt": "2026-10-14",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；非整本教材审核"
+  },
+  {
+    "id": "S156",
+    "researchKey": "A03-DEEP-S156",
+    "title": "MIT 6.012 Spring 2001 Lecture 25: Differential Amplifiers",
+    "url": "https://web.mit.edu/6.012/SPR01/lecture25.pdf",
+    "modules": [
+      "A03"
+    ],
+    "locator": "PDF第6–12页",
+    "scope": "差模/共模分解、对称半电路和输出定义。",
+    "limits": "后段例子为MOS；网站不把MOS页作为BJT指数式的直接来源。",
+    "version": "大学公开教学讲义；版本以链接为准",
+    "retrievedAt": "2026-10-14",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；非整本教材审核"
+  },
+  {
+    "id": "S157",
+    "researchKey": "A03-DEEP-S157",
+    "title": "MIT 6.012 Fall 2009 Lecture 17: Current Sources and Mirrors",
+    "url": "https://ocw.mit.edu/courses/6-012-microelectronic-devices-and-circuits-fall-2009/e99a2858fa78c976288c042e10b9a06c_MIT6_012F09_lec17.pdf",
+    "modules": [
+      "A03"
+    ],
+    "locator": "PDF第7、10–12页",
+    "scope": "基本BJT电流镜、顺从范围与有限输出电导；网站另用KCL推导基极分流误差。",
+    "limits": "原页理想关系忽略基极电流；有限β修正为网站推导，不作为原文引述。",
+    "version": "大学公开教学讲义；版本以链接为准",
+    "retrievedAt": "2026-10-14",
+    "type": "大学原始教学",
+    "verification": "已访问所列定位；非整本教材审核"
+  },
+  {
+    "id": "S158",
+    "researchKey": "A03-DEEP-S158",
+    "title": "TI SLOA011B: Understanding Operational Amplifier Specifications",
+    "url": "https://www.ti.com/lit/an/sloa011b/sloa011b.pdf",
+    "modules": [
+      "A03"
+    ],
+    "locator": "§5.4、5.6、5.13、5.16",
+    "scope": "输入共模范围、带负载输出摆幅、压摆率、增益带宽与稳定性。",
+    "limits": "2021年7月修订；具体数值取指定器件数据手册。单主极点带宽和正弦SR关系为有条件近似与网站推导。",
+    "version": "SLOA011B July 2021",
+    "retrievedAt": "2026-10-14",
+    "type": "厂商原始应用资料",
+    "verification": "已访问所列定位；非整本教材审核"
   }
 ]
