@@ -10,3 +10,5 @@ dist/
 src/generated/
 public/curriculum/
 public/planning/
+
+public/projects/*/教学复现包.zip
