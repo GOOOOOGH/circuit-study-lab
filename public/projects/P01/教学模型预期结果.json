@@ -1,0 +1,9 @@
+{
+  "type": "原创教学模型验证；不是硬件实测",
+  "conditions": "条件见各键单位与对应项目讲义；无真实电池/机构/高压台架",
+  "result": {
+    "bytesPerImuSample": 20,
+    "payloadBytesPerSecond": 20000,
+    "uart8N1MinimumBitsPerSecond": 200000
+  }
+}
